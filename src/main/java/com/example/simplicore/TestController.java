@@ -17,4 +17,11 @@ public class TestController {
     public String pipeline() {
         return "ci cd pipeline is working";
     }
+
+    @GetMapping(value = "/pipeline/v2")
+    public String pipelineV2() {
+        return "ci cd pipelineV2 is working";
+    }
+
+
 }
