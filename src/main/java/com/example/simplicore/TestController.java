@@ -12,4 +12,9 @@ public class TestController {
     public String welcome() {
         return "Hi welcome back";
     }
+
+    @GetMapping(value = "/pipeline")
+    public String pipeline() {
+        return "ci cd pipeline is working";
+    }
 }
